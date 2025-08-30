@@ -1,7 +1,14 @@
 # Importa le librerie necessarie
 import pygame
 import time
-from config import NUM_PLAYERS, SCREEN_WIDTH, SCREEN_HEIGHT, FONT_SIZE, TIMER_START, START_KEY
+
+# =========================
+# CONFIGURAZIONE DI GIOCO
+# =========================
+NUM_PLAYERS = 8
+SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
+FONT_SIZE = 48
+TIMER_START = 6
 
 # Inizializza la libreria pygame
 pygame.init()
@@ -16,8 +23,7 @@ font = pygame.font.SysFont(None, FONT_SIZE)
 # Crea un oggetto clock per controllare il framerate
 clock = pygame.time.Clock()
 
-# Converte il nome del tasto START_KEY (es. 'RETURN') nel codice pygame corrispondente
-START_KEY = getattr(pygame, f'K_{START_KEY.lower()}')
+START_KEY = pygame.K_RETURN
 
 # Inizializza il modulo joystick
 pygame.joystick.init()
