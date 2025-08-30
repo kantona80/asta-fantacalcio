@@ -18,6 +18,7 @@ L'obiettivo è rendere l'asta più **coinvolgente, rapida e automatizzata**, eli
 - Un **encoder USB** (es. tipo Zero Delay o simili) riconosciuto dal sistema come joystick.
 - Da **4 a 12 pulsanti fisici** collegati all'encoder, uno per ciascun giocatore.
 - Schermo o proiettore per visualizzare l'interfaccia dell'asta.
+- Un PC con Windows, Linux o Mac oppure un Raspberry Pi.
 
 ⚠️ **Nota importante:**  
 Il programma rileva l'encoder USB come un joystick. Se non è connesso, viene mostrato un messaggio di avviso e non sarà possibile effettuare rilanci.
