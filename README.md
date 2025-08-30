@@ -67,7 +67,7 @@ pip3 install pygame
 
 
 ## 🚀 Come eseguire
-
+```bash
 1. Clona il repository:
    git clone https://github.com/kantona80/asta-fantacalcio/
 2. Entra nella cartella di progetto:
