@@ -39,7 +39,7 @@ try:
         joystick.init()
         joystick_connected = True
     else:
-        print("⚠ Nessun joystick rilevato!")
+        print("Nessun joystick rilevato!")
 except pygame.error as e:
     print(f"Errore inizializzazione joystick: {e}")
 
@@ -78,7 +78,7 @@ def draw_screen():
 
     # Messaggio di stato
     if not joystick_connected:
-        info = font.render("⚠ Nessun joystick connesso!", True, (255, 50, 50))
+        info = font.render("Nessun joystick connesso!", True, (255, 50, 50))
         screen.blit(info, (50, 300))
     elif not auction_active:
         info = font.render("Premi ENTER per iniziare", True, (100, 255, 100))
