@@ -12,6 +12,8 @@ L'interfaccia grafica mostra in tempo reale:
 
 L'obiettivo è rendere l'asta più **coinvolgente, rapida e automatizzata**, eliminando la gestione manuale delle offerte.
 
+Foto: https://www.linkedin.com/posts/marcosessa_figli-fantacalcio-nerdpride-activity-7367207255336841216-2ymu
+
 ---
 
 ## 🕹️ Requisiti hardware
