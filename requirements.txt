@@ -1,0 +1,7 @@
+
+---
+
+### 📦 Contenuto del file `requirements.txt`
+
+```txt
+pygame>=2.0.0
