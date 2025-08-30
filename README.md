@@ -63,14 +63,12 @@ Il programma rileva l'encoder USB come un joystick. Se non è connesso, viene mo
 - [pygame](https://www.pygame.org/) – per la gestione di grafica, eventi e input da joystick.
 
 Installa pygame con:
-```bash
 pip3 install pygame
 
 
 ## 🚀 Come eseguire
 
 1. Clona il repository:
-   ```bash
    git clone https://github.com/kantona80/asta-fantacalcio/
 2. Entra nella cartella di progetto:
   cd asta-fantacalcio
