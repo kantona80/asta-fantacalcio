@@ -12,7 +12,7 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 
 # Dimensione del font
-FONT_SIZE = 32
+FONT_SIZE = 48
 
 # Durata iniziale del timer in secondi
 TIMER_START = 6  # Modificabile
