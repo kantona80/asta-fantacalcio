@@ -78,4 +78,4 @@ pip3 install pygame
 3. Installa le dipendenze
   pip3 install -r requirements.txt
 4. Avvia il programma
-  python3 asta_fantacalcio.py
+  python3 fanta.py
